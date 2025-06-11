@@ -1,3 +1,5 @@
+
+
 # Cypress Testing Practice 🚀
 
 This project contains a collection of Cypress end-to-end test cases created for learning and practicing automation testing. It includes various test scenarios such as assertions, form handling, login functionality, group tests, page object model, and file read/write operations.
@@ -6,23 +8,26 @@ This project contains a collection of Cypress end-to-end test cases created for 
 
 ## 📂 Project Structure
 
+```
+
 Cypress-testing-practice/
 ├── cypress/
-│ ├── e2e/
-│ │ ├── assertion.cy.js
-│ │ ├── form.cy.js
-│ │ ├── groupTest.cy.js
-│ │ ├── home.cy.js
-│ │ ├── login_appAction.cy.js
-│ │ ├── page_obj_model.cy.js
-│ │ ├── readwritefile.cy.js
-│ │ ├── spec.cy.js
-│ └── pages/
-│ └── login_page.js
+│   ├── e2e/
+│   │   ├── assertion.cy.js
+│   │   ├── form.cy.js
+│   │   ├── groupTest.cy.js
+│   │   ├── home.cy.js
+│   │   ├── login\_appAction.cy.js
+│   │   ├── page\_obj\_model.cy.js
+│   │   ├── readwritefile.cy.js
+│   │   ├── spec.cy.js
+│   └── pages/
+│       └── login\_page.js
 ├── cypress.config.js
 ├── package.json
 └── README.md
 
+````
 
 ---
 
@@ -31,21 +36,40 @@ Cypress-testing-practice/
 1. **Clone the repository**
    ```bash
    git clone https://github.com/MahalakshmiMohan21/Cypress-testing-practice.git
-Navigate to the project directory
+````
 
-cd Cypress-testing-practice
-Install dependencies
+2. **Navigate to the project directory**
 
+   ```bash
+   cd Cypress-testing-practice
+   ```
 
-npm install
-🚀 Running the Tests
-Open Cypress Test Runner
+3. **Install dependencies**
 
+   ```bash
+   npm install
+   ```
+
+---
+
+## 🚀 Running the Tests
+
+### Open Cypress Test Runner
+
+```bash
 npx cypress open
-Run tests in headless mode
+```
 
+### Run tests in headless mode
+
+```bash
 npx cypress run
-🧪 Included Test Files
+```
+
+---
+
+## 🧪 Included Test Files
+
 | Test File               | Description                              |
 | ----------------------- | ---------------------------------------- |
 | `assertion.cy.js`       | Validates Cypress assertions             |
@@ -57,24 +81,34 @@ npx cypress run
 | `readwritefile.cy.js`   | Reads and writes to files during tests   |
 | `spec.cy.js`            | Default Cypress test sample              |
 
+---
 
-📁 Pages Folder
+## 📁 Pages Folder
+
 | File            | Purpose                             |
 | --------------- | ----------------------------------- |
 | `login_page.js` | Page Object for login functionality |
 
+---
 
-📚 Tech Stack
+## 📚 Tech Stack
 
-Cypress
+* Cypress
+* JavaScript
+* Node.js
 
-JavaScript
+---
 
-Node.js
+## 👩‍💻 Author
 
-👩‍💻 Author
-Mahalakshmi Mohan
+**Mahalakshmi Mohan**
 [GitHub](https://github.com/MahalakshmiMohan21)
 
-📌 Note
+---
+
+## 📌 Note
+
 This project is created for learning and practice purposes only.
+
+```
+
