@@ -65,6 +65,7 @@ npx cypress run
 
 
 📚 Tech Stack
+
 Cypress
 
 JavaScript
